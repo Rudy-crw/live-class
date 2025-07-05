@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* outline: solid 1px; */
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+*,
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  color: #212529;
+  letter-spacing: 0.05em;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+.pb-4 {
+  padding-bottom: 4px;
+}
+.pb-12 {
+  padding-bottom: 12px;
+}
+.pb-16 {
+  padding-bottom: 16px;
+}
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.header {
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.header-title {
+  text-align: center;
+  padding: 151px 0;
+}
+.header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+.header p {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.main {
+  margin: 64px auto;
+}
+.core-values {
+  max-width: 856px;
+  background-color: #f5fee7;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 32px;
+}
+.core-values h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #57a203;
+}
+.core-values p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.brand-intro_img {
+  width: 1076px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.brand-intro {
+  max-width: 856px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.brand-about,
+.brand-history,
+.brand-philosophy,
+.brand-story {
+  border-bottom: 1px solid #dee2e6;
+}
+.brand-intro_title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.brand-intro_highlight {
+  font-size: 20px;
+  font-weight: 700;
+  color: #57a203;
+  line-height: 1.2;
+}
+
+.brand-history_list {
+  padding-left: 5px;
+}
+
+.brand-history_list li + li {
+  margin-top: 12px;
+}
+.brand-history_item time {
+  padding-right: 8px;
+  padding-left: 5px;
+}
+.brand-history_item p {
+  padding-left: 8px;
+  border-left: 1px solid #212529;
+}
+
+.brand-philosophy_list li + li {
+  margin-top: 12px;
+}
+.brand-philosophy_item {
+  padding-left: 9px;
+  border-left: 3px solid #dee2e6;
+}
+
+.brand-story_item i {
+  color: #57a203;
+}
+.bi-arrow-up-right::before {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.brand-story_item a {
+  color: #57a203;
+  border-bottom: 1px solid #57a203;
+  padding-bottom: 3px;
+  margin-left: 1px;
+  text-decoration: none;
+  font-weight: 500;
+}
+/* .brand-story_list li + li {
+  padding-top: 16px;
+} */
+.brand-story_item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.footer {
+  padding: 64px;
+  background-color: #f8f9fa;
+}
+.footer p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: #6c757d;
+}
