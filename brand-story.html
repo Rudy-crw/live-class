@@ -14,16 +14,33 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="styles/story.css" />
+    <link rel="stylesheet" href="./styles/all.css" />
+    <link rel="stylesheet" href="./styles/story.css" />
   </head>
   <body>
+    <header class="nav">
+      <div class="d-flex">
+        <div class="logo mr-48">
+          <h1>URBNSTEP</h1>
+          <div class="dot"></div>
+        </div>
+
+        <ul class="menu">
+          <li><a href="products.html">商品列表</a></li>
+          <li><a href="brand-story.html">品牌故事</a></li>
+        </ul>
+      </div>
+      <div class="profile">
+        <a href="#"><i class="bi bi-person"></i></a>
+      </div>
+    </header>
     <div class="container">
-      <header class="header">
-        <div class="header-title">
+      <div class="hero">
+        <div class="hero-title">
           <h1 class="pb-16">品牌故事</h1>
           <p>Brand Story</p>
         </div>
-      </header>
+      </div>
       <div class="main">
         <div class="core-values mb-48">
           <h2 class="pb-12">走出城市的節奏，穿上自己的步調。</h2>
@@ -100,26 +117,46 @@
           <div class="brand-intro brand-story pb-48 mb-48">
             <h2 class="brand-intro_title mb-24">品牌小故事</h2>
             <ul class="brand-story_list">
-              <li class="brand-story_item">
-                <i class="bi bi-arrow-up-right"></i>
+              <li class="brand-story_item d-flex">
+                <i class="bi bi-arrow-up-right mr-8"></i>
                 <a href="#">創辦人筆記：我們為什麼想做鞋？</a>
               </li>
-              <li class="brand-story_item">
-                <i class="bi bi-arrow-up-right"></i>
+              <li class="brand-story_item d-flex">
+                <i class="bi bi-arrow-up-right mr-8"></i>
                 <a href="#">穿上 URBNSTEP 的他們</a>
               </li>
-              <li class="brand-story_item">
-                <i class="bi bi-arrow-up-right"></i>
+              <li class="brand-story_item d-flex">
+                <i class="bi bi-arrow-up-right mr-8"></i>
                 <a href="#">URBNSTEP 鞋履的誕生過程</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <footer class="footer">
-        <p>Copyright ©2025 URBNSTYLE</p>
-        <p>All Rights Reserved.</p>
-      </footer>
+      <div class="ad-area">
+        <p>加入會員取得 9 折優惠</p>
+        <button type="button" class="btn">馬上註冊</button>
+      </div>
+      <div class="footer">
+        <nav class="mb-24">
+          <div class="d-flex">
+            <ul class="menu">
+              <li><a href="products.html">商品列表</a></li>
+              <li><a href="brand-story.html">品牌故事</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="logo mr-48">
+              <h1>URBNSTEP</h1>
+              <div class="dot"></div>
+            </div>
+          </div>
+        </nav>
+        <div class="copyright pt-32">
+          <p class="mb-4">Copyright ©2025 URBNSTYLE</p>
+          <p>All Rights Reserved.</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
