@@ -167,16 +167,15 @@ a {
 .pt-32 {
   padding-top: 32px;
 }
-
+.d-flex {
+  display: flex;
+}
 .nav {
   display: flex;
   justify-content: space-between;
   padding: 16px 0;
   margin: 0 auto;
   max-width: 1296px;
-}
-.left {
-  display: flex;
 }
 
 .logo {
@@ -215,10 +214,22 @@ a {
   color: var(--color-neutral-900);
   font-weight: 500;
   line-height: 1.5;
+  &:hover {
+    color: var(--color-neutral-600);
+  }
 }
-.right img {
-  display: block;
-  width: 48px;
+.profile {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.bi {
+  font-size: 24px;
+  color: var(--color-neutral-900);
+  &:hover {
+    color: var(--color-neutral-600);
+  }
 }
 
 .main {
@@ -258,7 +269,7 @@ a {
   justify-content: space-between;
   gap: 24px;
 }
-.products-area-left {
+.category-area {
   line-height: 1.5;
   width: 15%;
 }
@@ -267,12 +278,16 @@ a {
   padding: 12px 0;
   margin-bottom: 16px;
   color: var(--color-neutral-900);
+  &:hover:not(.nowPage) {
+    color: var(--color-neutral-600);
+  }
 }
-.category-item li:first-child {
+.category-item .nowPage {
   color: var(--color-primary-400);
+  font-weight: 500;
 }
 
-.products-area-right {
+.products-area-cardList {
   max-width: 1076px;
 }
 .products-cards-area {
@@ -321,6 +336,10 @@ a {
   padding: 8px 15px;
   font-weight: 400;
 }
+.page-item .btn:hover {
+  background-color: #f8f9fa;
+  font-weight: 500;
+}
 .page-item .active {
   background-color: var(--color-primary-300);
   font-weight: 500;
@@ -346,6 +365,9 @@ a {
   line-height: 1.5;
   color: #fff;
   background-color: var(--color-neutral-900);
+  &:hover {
+    background-color: var(--color-neutral-700);
+  }
 }
 .footer {
   padding: 64px 0;
