@@ -166,6 +166,9 @@
 picture {
   display: none;
 }
+.swiper-wrapper-area {
+  display: none;
+}
 @media (max-width: 768px) {
   .m-p-0 {
     padding: 0;
@@ -246,5 +249,8 @@ picture {
   }
   .related-products {
     padding-left: 12px;
+  }
+  .swiper-wrapper-area {
+    display: block;
   }
 }
