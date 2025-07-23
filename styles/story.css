@@ -127,8 +127,55 @@
   .core-values {
     text-align: left;
     padding: 24px;
+    margin-bottom: 32px;
   }
   .core-values p {
     letter-spacing: 0.05em;
+  }
+  .brand-intro_img {
+    margin-bottom: 16px;
+  }
+  .brand-intro_title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .brand-intro_highlight {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .brand-intro_text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .brand-about {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+  .brand-history_item p {
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .brand-history_item time {
+    padding: 0;
+  }
+  .brand-history_item time::after {
+    content: " | ";
+    color: var(--color-neutral-600);
+  }
+  .brand-history {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+  .brand-philosophy {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+  .brand-story {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
   }
 }
