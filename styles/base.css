@@ -1,0 +1,108 @@
+/*  標籤基本設定  */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* outline: solid 1px; */
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+
+  color: inherit; /* 設定顏色繼承 */
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: var(--color-neutral-900);
+}
+
+/* 通用樣式 */
+
+.h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.h2 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.h3 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.h4 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.h5 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.h6 {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.label-lg {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.label-md {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.label-sm {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.label-xs {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.text-lg {
+  font-size: 20px;
+  font-weight: 400;
+}
+.text-md {
+  font-size: 16px;
+  font-weight: 400;
+}
+.text-sm {
+  font-size: 14px;
+  font-weight: 400;
+}
+.btn {
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .btn {
+    padding: 8px 16px;
+  }
+}
